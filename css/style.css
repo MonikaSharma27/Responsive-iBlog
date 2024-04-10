@@ -5,18 +5,24 @@
 
 .navigation {
     background-color: blue;
-    width: 100vw;
-    height: 30px;
+    width: 80vw;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .content {
     height: 55px;
     width: 80vw;
     background-color: red;
+    margin: auto;
+    
 }
 
 .footer {
     height: 30px;
     width: 60vw;
+    margin: auto;
     background-color: aqua;
 }
