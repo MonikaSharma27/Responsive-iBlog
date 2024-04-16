@@ -1,0 +1,36 @@
+.contact-content {
+    height: 100vh;
+    font-family: "Baloo 2", sans-serif;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+.contact-content::after{
+    content: "";
+    background-image: url("../images/ty.webp");
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: inherit;
+    opacity: 0.20;
+    z-index: -1;
+   
+
+}
+
+.hr{
+    margin: auto;
+    width: 80vw;
+}
+.form-box input , textarea {
+    width: 44vw;
+    padding: 8px 6px;
+    margin: 7px 0;
+    border: 2px solid rgb(109, 102, 102);
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
